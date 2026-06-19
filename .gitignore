@@ -1,0 +1,28 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyd
+venv/
+.venv/
+
+# ===== AI Model goc / model tam =====
+yolov8l.pt
+yolo11n.pt
+
+# ===== Build output =====
+build/
+dist/
+
+# ===== Runtime =====
+app.log
+
+# ===== Anh upload cua nguoi dung =====
+static/uploads/*
+!static/uploads/.gitkeep
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== Training output =====
+runs/
